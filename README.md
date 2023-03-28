@@ -19,10 +19,10 @@ Please refer to my [Medium blog page](https://www.google.com) for details around
 ## Resoure Files needed for this test
 
 1. Install **Apache Jmeter**. [Download Here](https://jmeter.apache.org/download_jmeter.cgi)
-2. **Jmeter BZM Concurrency Plugin** [Download here](https://medium.com/r?url=https%3A%2F%2Fjmeter-plugins.org%2Ffiles%2Fpackages%2Fjpgc-casutg-2.10.zip). 
-    - To install simply unzip the file and copy the contents to Jmeter_Install_Path\lib\ folder. Once done:
-      - **jmeter-plugins..0.6.jar** should be directly in the **\Jmeter_Install_Path\lib\**  
-      - The files in **\ext\** subfolder of the zip should be in **\Jmeter_Install_Path\lib\ext\** 
-3. **Concurrency_Test_Snowflake_Public.jmx** Jmeter test file to run against Sample Snowflake TPCH dataset.  [Download here]()
-4. **Search_Filters.csv** file which has a list of valid search value combinations that will be used to contruct unique queries. [Download here]()
-
+2. Download & UnZip [Jmeter_Snowflake_Concurrency_Test.zip file](https://github.com/NickAkincilar/BI_Concurrency_Test_Jmeter/raw/main/Jmeter_Snowflake_Concurrency_Test.zip)  This file contains:
+    - **Jmeter BZM Concurrency Plugin**
+        - To install simply the contents of **jpgc-casutg--2.10.zip** to \Jmeter_Install_Path\lib\ folder. Once done:
+        - **jmeter-plugins..0.6.jar** should be directly in the \Jmeter_Install_Path\lib\  
+        - The files in \ext\ subfolder of the zip should be in \Jmeter_Install_Path\lib\ext\ 
+3. **Concurrency_Test_Snowflake_Public.jmx** Jmeter test file to run against Sample Snowflake TPCH dataset.  
+4. **Search_Filters.csv** file which has a list of valid search value combinations that will be used to contruct unique queries. 
