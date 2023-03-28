@@ -14,7 +14,9 @@ This project shows you how you can use Jmeter to perform a simple concurrency te
     - **% of Errors** overall during the test (# of failed queries due to high concurrency)
   
 ## How do we test it?
-Please refer to my [Medium blog page](https://www.google.com) for details around performing this test using Snowflake & the Sample TPCH data. You can use other datasets & platforms as well using the similar steps.
+Refer to [Medium blog page](https://www.google.com) for details around performing this test using Snowflake & the Sample TPCH data. 
+
+You can use other datasets & platforms as well using the similar steps.
 
 ## Resoure Files needed for this test
 
