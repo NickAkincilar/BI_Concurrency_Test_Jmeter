@@ -19,7 +19,7 @@ Please refer to my [Medium blog page](https://www.google.com) for details around
 ## Resoure Files needed for this test
 
 1. Install **Apache Jmeter**. [Download Here](https://jmeter.apache.org/download_jmeter.cgi)
-2. Download & UnZip [Jmeter_Snowflake_Concurrency_Test.zip file](https://github.com/NickAkincilar/BI_Concurrency_Test_Jmeter/raw/main/Jmeter_Snowflake_Concurrency_Test.zip)  This file contains:
+2. Download & UnZip [Jmeter_Snowflake_Concurrency_Test.zip](https://github.com/NickAkincilar/BI_Concurrency_Test_Jmeter/raw/main/Jmeter_Snowflake_Concurrency_Test.zip) file  This file contains:
     - **Jmeter BZM Concurrency Plugin**
         - To install simply the contents of **jpgc-casutg--2.10.zip** to \Jmeter_Install_Path\lib\ folder. Once done:
         - **jmeter-plugins..0.6.jar** should be directly in the \Jmeter_Install_Path\lib\  
